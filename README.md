@@ -14,6 +14,7 @@ One thing is clear: the value head of the network is as good as the original man
 # Future work
 - It would be great to test depthly the performance of LeelaFish and the optimal ratio in which it's able to perform as good or better than SF and/or LCZero.  
 - It would be a good idea to use instead of LCZero the more recent lc0 source code of the LeelaZero project.
+- Right now the project has been compiled and tested only in Windows machines (using Visual Studio 2017). It should be changed the make files in order to run the project in Linux systems.
 
 # Licence
 LeelaFish Copyright (C) 2018  Samuel Graván and contributors. 

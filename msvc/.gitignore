@@ -1,0 +1,8 @@
+packages
+.orig
+.vs
+*.db
+*.opendb
+*.user
+*.tlog
+VS2017/x64
