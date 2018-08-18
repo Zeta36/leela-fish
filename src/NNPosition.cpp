@@ -771,9 +771,6 @@ void NNPosition::do_move(Move m, NNStateInfo& newSt, bool givesCheck) {
   st->checkersBB = givesCheck ? attackers_to(square<KING>(them)) & pieces(us) : 0;
 
   sideToMove = ~sideToMove;
-
-  // Update king attacks used for fast check detection
-  set_check_info(st);
   
   st->move = m;
 
