@@ -138,7 +138,7 @@ const string engine_info(bool to_uci) {
   ss << (Is64Bit ? " 64" : "")
      << (HasPext ? " BMI2" : (HasPopCnt ? " POPCNT" : ""))
      << (to_uci  ? "\nid author ": " by ")
-     << "Samuel Graván";
+     << "Samuel Gravan";
 
   return ss.str();
 }

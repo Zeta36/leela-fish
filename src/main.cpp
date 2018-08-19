@@ -44,7 +44,7 @@ using namespace Utils;
 
 static void license_blurb() {
     myprintf_so(
-        "LeelaFish %s Copyright (C) 2018  Samuel Graván and contributors\n"
+        "LeelaFish %s Copyright (C) 2018  Samuel Gravan and contributors\n"
         "Based on:\n"
         "Leela Chess Copyright (C) 2017 benediamond\n"
         "Leela Zero Copyright (C) 2017-2018  Gian-Carlo Pascutto and contributors\n"
